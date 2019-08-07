@@ -1,8 +1,5 @@
 <?php
-$host = "192.168.1.84";
-$dbname = "jabeE";
-$un = "david";
-$pw = "qsdf";
+include('dbinfo.php');
 $json = json_decode(file_get_contents('php://input'), true);
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $un, $pw);
