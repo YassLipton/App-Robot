@@ -28,7 +28,7 @@ export default class App extends Component
     {
         this.setState({ loading: true, disabled: true }, () =>
         {
-            fetch('http://192.168.1.114/Robot/data_add.php',
+            fetch('http:// /* IP Serveur */ /Robot/data_add.php',
             {
                 method: 'POST',
                 headers: 
