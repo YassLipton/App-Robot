@@ -1,8 +1,5 @@
 <?php
-$host = "localhost";
-$dbname = "circuit";
-$un = "localhost";
-$pw = "root";
+include('dbinfo.php');
 $json = json_decode(file_get_contents('php://input'), true);
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $un, $pw);
