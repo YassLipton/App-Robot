@@ -1,6 +1,6 @@
 <?php
-$host = "localhost";
-$dbname = "circuit";
-$un = "localhost";
-$pw = "root";
+$host = /*Adresse serveur*/;
+$dbname = /*Nom de la bdd*/;
+$un = /*Nom utilisateur*/;
+$pw = /*Mot de Passe utilisateur*/;
 ?>
