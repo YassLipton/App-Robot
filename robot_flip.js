@@ -15,7 +15,7 @@ export default class App extends Component
     componentWillMount() {
       this.setState( () =>
         {
-            fetch('http://192.168.1.114/Robot/data_modif.php',
+            fetch('http:// /* IP Serveur */ /Robot/data_modif.php',
             {
                 method: 'POST',
                 headers: 
